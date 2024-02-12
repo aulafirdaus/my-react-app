@@ -1,12 +1,7 @@
 import React from 'react';
+import Button from './components/Elements/Button';
 
 
-const Button = (props) => {
-    const {children = "...", variant = "bg-black"} = props; //destructuring (nilai default)
-    return (
-        <button className={`h-10 px-6 font-semibold rounded-md ${variant} text-white`} type="submit">{children}</button>
-    )
-}
 function App() {
   return (
     <div className="flex justify-center bg-blue-600 min-h-screen items-center">
